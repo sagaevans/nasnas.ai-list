@@ -1,0 +1,203 @@
+{
+  "wallet": "0x2Ca536f9f769c2fE7d9763b6FD97C9e51400b8fb",
+  "identities": [
+    {
+      "name": "nasz.ai",
+      "kind": "Binance .ai Agent ID (SPACE ID)",
+      "contract": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F"
+    },
+    {
+      "name": "nasz.agent",
+      "kind": "TermiX agent, ERC-8004 identity #381592",
+      "contract": "0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+    }
+  ],
+  "nfts": [
+    {
+      "collection": "AIVY Robot",
+      "tokenId": "2722",
+      "contract": "0x77cCE940d1Fe4808aB6cf8484d45d8B51139E7D6",
+      "date": "2026-10-24",
+      "image": null
+    },
+    {
+      "collection": "Signal Ghosts",
+      "tokenId": "1264",
+      "contract": "0xAbccd3Dfbb3b8e5c3EB6aE4De90AA22Db2286d1b",
+      "date": "2026-10-24",
+      "image": null
+    },
+    {
+      "collection": "Agent Drop Pass",
+      "tokenId": "178",
+      "contract": "0x71Bd52c7e0F577B8beAaB8AE1ddE334ABd26720A",
+      "date": "2026-10-24",
+      "image": null
+    },
+    {
+      "collection": "Block Zero",
+      "tokenId": "3470",
+      "contract": "0xee5ffdcb9eb649e2a0437f4e80554f9500c3edf1",
+      "date": "2026-10-24",
+      "image": null
+    },
+    {
+      "collection": "Agent Nakamigos Id",
+      "tokenId": "11962",
+      "contract": "0x2D7097E0f28Ea0fEB0b3b44c7d0ee0227d513103",
+      "date": "2026-10-24",
+      "image": null
+    },
+    {
+      "collection": "AnthroBit Bit",
+      "tokenId": "1000",
+      "contract": "0xc7b7593Aa572701d26301D9707E93b0c511e636A",
+      "date": "2026-10-24",
+      "image": null
+    },
+    {
+      "collection": "AnthroBit Bit",
+      "tokenId": "1932",
+      "contract": "0xc7b7593Aa572701d26301D9707E93b0c511e636A",
+      "date": "2026-10-25",
+      "image": null
+    },
+    {
+      "collection": "Signal Core",
+      "tokenId": "342",
+      "contract": "0xC64c6e841d2F890C94A41195275dCeC393da9F4e",
+      "date": "2026-10-24",
+      "image": null
+    },
+    {
+      "collection": "Galaxy Coin (Earth)",
+      "tokenId": null,
+      "contract": "0x4f1B3B3c9F04f5bfe6e6A3B47219C6443b7ba0E9",
+      "date": "2026-10-24",
+      "image": null
+    },
+    {
+      "collection": "Blue Sky",
+      "tokenId": "569",
+      "contract": null,
+      "date": "2026-10-24",
+      "image": null
+    },
+    {
+      "collection": "Brushborn",
+      "tokenId": null,
+      "contract": "0x5d43566e40E2e6D396EC10224363E5cAcFc40Cf0",
+      "date": "2026-10-25",
+      "image": null
+    },
+    {
+      "collection": "Pocket Dragons",
+      "tokenId": "277",
+      "contract": null,
+      "date": "2026-10-25",
+      "image": null
+    },
+    {
+      "collection": "ORVYN",
+      "tokenId": null,
+      "contract": "0x549538B29953a735C35Fb77077A6811228aF4Ab8",
+      "date": "2026-10-25",
+      "image": null
+    },
+    {
+      "collection": "NEON BOTZ",
+      "tokenId": "1013",
+      "contract": "0xd85a10b599e228fb2d13d3e9b0a2b9003f1cd31c",
+      "date": "2026-10-25",
+      "image": null
+    },
+    {
+      "collection": "BSC Agent Fragment",
+      "tokenId": "482",
+      "contract": null,
+      "date": "2026-10-25",
+      "image": null
+    },
+    {
+      "collection": "Patient0 Genesis",
+      "tokenId": null,
+      "contract": null,
+      "date": "2026-10-26",
+      "image": null
+    },
+    {
+      "collection": "Synth Ape Syndicate",
+      "tokenId": "1193",
+      "contract": null,
+      "date": "2026-10-26",
+      "image": null
+    },
+    {
+      "collection": "CharmMine Common",
+      "tokenId": "59",
+      "contract": "0x5cfebb581e5c95303eb546f280f430573bb3c59e",
+      "date": "2026-10-27",
+      "image": null
+    },
+    {
+      "collection": "Nemotron Sigil",
+      "tokenId": "192",
+      "contract": "0xDd8BdfC91cbD572935B09863A742d8296fed0ACf",
+      "date": "2026-10-27",
+      "image": null
+    },
+    {
+      "collection": "Nemotron Sigil",
+      "tokenId": "193",
+      "contract": "0xDd8BdfC91cbD572935B09863A742d8296fed0ACf",
+      "date": "2026-10-27",
+      "image": null
+    },
+    {
+      "collection": "Onchain Plants",
+      "tokenId": "549",
+      "contract": "0x9c0635e0ea16efff7ad6adffd46599d9adfc076e",
+      "date": "2026-10-27",
+      "image": null
+    },
+    {
+      "collection": "Noir Brokers",
+      "tokenId": "2549",
+      "contract": "0xAfE2Becdf86826d4b4341de80a0eb2E98Eec5B02",
+      "date": "2026-10-27",
+      "image": null
+    },
+    {
+      "collection": "si.passport",
+      "tokenId": "4631",
+      "contract": "0x2270d76AC11f416CEb60e362eC119aBD65306849",
+      "date": "2026-10-27",
+      "image": null
+    },
+    {
+      "collection": "Floppy Agents",
+      "tokenId": "2859",
+      "contract": "0x8F1E4787f131990d793Af253d118aed7Fe1B29AF",
+      "date": "2026-10-27",
+      "image": null
+    }
+  ],
+  "tokens": [
+    {
+      "symbol": "SHANIU",
+      "name": "SHANIU",
+      "contract": "0xa09f463441a4cca39db2f188162caf6aba98be67",
+      "amount": 78,
+      "date": "2026-10-24"
+    },
+    {
+      "symbol": "AGDOGE",
+      "name": "AGDOGE",
+      "contract": "0xDE9884D41A9Bb5ABdCC723047161087950AEAE46",
+      "amount": 10000,
+      "date": "2026-10-24"
+    }
+  ],
+  "blocklist": [],
+  "lastBlock": 129985000
+}
