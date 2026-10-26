@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>nasz.ai — On-chain Collection</title>
+<meta name="description" content="NFTs, agent identities and tokens collected by the nasz.ai Agentic Wallet on BNB Chain.">
+<style>
+:root{--bg:#0b0f14;--card:#121922;--line:#1f2a36;--text:#e8eef5;--muted:#8a9bb0;--gold:#f0b90b;--teal:#2dd4bf}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--text)}
+a{color:var(--teal);text-decoration:none}a:hover{text-decoration:underline}
+header{padding:56px 20px 32px;text-align:center;background:radial-gradient(ellipse at top,#1b2a1f55,transparent 60%),radial-gradient(ellipse at 80% 0,#0e3b3b88,transparent 50%)}
+h1{margin:0 0 8px;font-size:clamp(28px,6vw,44px)}h1 span{color:var(--gold)}
+.sub{color:var(--muted);margin:0 0 20px}.btn{display:inline-block;padding:10px 18px;border:1px solid var(--gold);border-radius:999px;color:var(--gold)}
+.stats{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:24px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 18px;min-width:120px}.stat b{display:block;font-size:24px;color:var(--gold)}.stat small{color:var(--muted)}
+main{max-width:1100px;margin:0 auto;padding:0 16px 48px}h2{margin:36px 0 14px;font-size:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:14px}
+.nft{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.nft .img{aspect-ratio:1;background:#0f151d;display:flex;align-items:center;justify-content:center;font-size:40px;color:#2a3a4c}
+.nft img{width:100%;height:100%;object-fit:cover;image-rendering:pixelated}
+.nft .meta{padding:10px 12px}.nft .meta b{display:block;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.nft .meta small{color:var(--muted)}
+.ids{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.id{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}.id b{font-size:18px;color:var(--gold)}.id p{margin:6px 0 0;color:var(--muted);font-size:14px}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+td,th{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;font-size:14px}th{color:var(--muted);font-weight:500}
+footer{color:var(--muted);text-align:center;font-size:13px;padding:24px 16px 40px}
+</style>
+</head>
+<body>
+<header>
+  <h1><span>nasz.ai</span> On-chain Collection</h1>
+  <p class="sub">BNB Smart Chain · auto-updated every 12 hours · <span id="upd"></span></p>
+  <a class="btn" id="wallet" target="_blank" rel="noopener">View wallet on BscScan</a>
+  <div class="stats">
+    <div class="stat"><b id="sN">–</b><small>NFTs</small></div>
+    <div class="stat"><b id="sC">–</b><small>Collections</small></div>
+    <div class="stat"><b id="sI">–</b><small>Agent identities</small></div>
+    <div class="stat"><b id="sT">–</b><small>Tokens</small></div>
+  </div>
+</header>
+<main>
+  <h2>Identities</h2><div class="ids" id="ids"></div>
+  <h2>NFT gallery</h2><div class="grid" id="nfts"></div>
+  <h2>Tokens</h2><table><thead><tr><th>Token</th><th>Amount</th><th>Contract</th></tr></thead><tbody id="toks"></tbody></table>
+</main>
+<footer>Collected by an AI agent running a Binance Agentic Wallet: free or near-free mints, checked before signing.<br>Independent collectibles, not affiliated with Binance. Not financial advice, DYOR.</footer>
+<script>
+const short=a=>a.slice(0,6)+"…"+a.slice(-4);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safeImg=u=>/^(https:\/\/|data:image\/)/.test(u||"")?u:null;
+fetch("data.json?"+Date.now()).then(r=>r.json()).then(d=>{
+  document.getElementById("wallet").href="https://bscscan.com/address/"+d.wallet;
+  document.getElementById("upd").textContent=d.updatedAt?"last scan "+new Date(d.updatedAt).toLocaleString():"";
+  const nfts=[...d.nfts].reverse();
+  sN.textContent=nfts.length;sC.textContent=new Set(nfts.map(n=>(n.contract||n.collection).toLowerCase())).size;sI.textContent=d.identities.length;sT.textContent=d.tokens.length;
+  ids.innerHTML=d.identities.map(i=>`<div class="id"><b>${esc(i.name)}</b><p>${esc(i.kind)}</p><p><a target="_blank" rel="noopener" href="https://bscscan.com/address/${esc(i.contract)}">${short(i.contract)}</a></p></div>`).join("");
+  document.getElementById("nfts").innerHTML=nfts.map(n=>{const img=safeImg(n.image);const link=n.contract?`https://bscscan.com/nft/${n.contract}/${n.tokenId}`:null;
+    return `<div class="nft"><div class="img">${img?`<img loading="lazy" src="${esc(img)}" alt="${esc(n.collection)}">`:"◇"}</div><div class="meta"><b title="${esc(n.collection)}">${esc(n.collection)}</b><small>${n.tokenId!=null?"#"+esc(n.tokenId):""} ${link?`· <a target="_blank" rel="noopener" href="${link}">BscScan</a>`:""}</small></div></div>`}).join("");
+  toks.innerHTML=d.tokens.map(t=>`<tr><td><b>${esc(t.symbol)}</b> <small style="color:var(--muted)">${esc(t.name||"")}</small></td><td>${Number(t.amount).toLocaleString(undefined,{maximumFractionDigits:4})}</td><td><a target="_blank" rel="noopener" href="https://bscscan.com/token/${esc(t.contract)}">${short(t.contract)}</a></td></tr>`).join("");
+});
+</script>
+</body>
+</html>
