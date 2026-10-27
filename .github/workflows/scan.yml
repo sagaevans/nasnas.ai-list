@@ -1,7 +1,7 @@
 name: Scan wallet
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 * * * *"
   workflow_dispatch:
 permissions:
   contents: write
