@@ -46,6 +46,9 @@ async function symbolOf(c) { try { return decodeString(await call(c, "0x95d89b41
 async function decimalsOf(c) { try { return Number(BigInt(await call(c, "0x313ce567"))); } catch { return 18; } }
 async function balanceOf(c) { try { return BigInt(await call(c, "0x70a08231" + word(WALLET))); } catch { return 0n; } }
 async function ownerOf(c, id) { try { return "0x" + (await call(c, "0x6352211e" + word(id))).slice(-40); } catch { return null; } }
+// Was this transfer started by the wallet itself (mint/claim/swap)? If not, it was pushed in by someone else.
+async function sentBySelf(hash) { try { return (await rpc("eth_getTransactionByHash", [hash]))?.from?.toLowerCase() === WALLET; } catch { return true; } }
+const flag = async (item, hash) => { if (!(await sentBySelf(hash))) { item.spam = true; item.note = "kemungkinan spam / dust"; } return item; };
 async function imageOf(c, id) {
   try {
     let uri = decodeString(await call(c, "0xc87b56dd" + word(id)));
@@ -92,14 +95,14 @@ for (const l of logs) {
     if ((await ownerOf(c, id))?.toLowerCase() !== WALLET) continue;
     nameCache[c] ??= (await nameOf(c)) || "Unknown NFT";
     if (SPAM.test(nameCache[c])) continue;
-    data.nfts.push({ collection: nameCache[c], tokenId: id, contract: l.address, date, image: await imageOf(c, id), auto: true });
+    data.nfts.push(await flag({ collection: nameCache[c], tokenId: id, contract: l.address, date, image: await imageOf(c, id), auto: true }, l.transactionHash));
     haveNft.add(nftKey(c, id)); added++;
   } else if (l.topics[0] === T_1155) {
     const id = BigInt("0x" + l.data.slice(2, 66)).toString();
     if (haveNft.has(nftKey(c, id))) continue;
     nameCache[c] ??= (await nameOf(c)) || "ERC-1155 item";
     if (SPAM.test(nameCache[c])) continue;
-    data.nfts.push({ collection: nameCache[c], tokenId: id, contract: l.address, date, image: null, auto: true });
+    data.nfts.push(await flag({ collection: nameCache[c], tokenId: id, contract: l.address, date, image: null, auto: true }, l.transactionHash));
     haveNft.add(nftKey(c, id)); added++;
   } else if (l.topics[0] === T_TRANSFER && l.topics.length === 3) {
     if (haveTok.has(c)) continue;
@@ -108,9 +111,19 @@ for (const l of logs) {
     const bal = await balanceOf(c);
     if (bal === 0n) continue;
     const dec = await decimalsOf(c);
-    data.tokens.push({ symbol, name, contract: l.address, amount: Number(bal) / 10 ** dec, date, auto: true });
+    data.tokens.push(await flag({ symbol, name, contract: l.address, amount: Number(bal) / 10 ** dec, date, auto: true, checked: true }, l.transactionHash));
     haveTok.add(c); added++;
   }
+}
+
+// one-time check for older auto-added tokens: label the ones the wallet did not claim itself
+for (const t of data.tokens) {
+  if (!t.auto || t.checked) continue;
+  for (let e = head; e > head - 300000; e -= CHUNK) {
+    const l = await rpc("eth_getLogs", [{ address: t.contract, fromBlock: hex(Math.max(0, e - CHUNK + 1)), toBlock: hex(e), topics: [T_TRANSFER, null, PAD] }]).catch(() => []);
+    if (l.length) { await flag(t, l[0].transactionHash); break; }
+  }
+  t.checked = true;
 }
 
 // refresh token balances and fill missing NFT images (a few per run)
