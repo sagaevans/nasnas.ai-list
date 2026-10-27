@@ -382,9 +382,17 @@
       "amount": 6,
       "date": "2026-10-27",
       "auto": true
+    },
+    {
+      "symbol": "BOLT",
+      "name": "Boltbook",
+      "contract": "0xbbdd8c7720d1eeb1d63738eaabb584a4b72c7777",
+      "amount": 2984.9999999999995,
+      "date": "2026-10-27",
+      "auto": true
     }
   ],
   "blocklist": [],
-  "lastBlock": 130026456,
-  "updatedAt": "2026-10-27T04:39:57.182Z"
+  "lastBlock": 130056863,
+  "updatedAt": "2026-10-27T08:26:36.228Z"
 }
