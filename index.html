@@ -24,6 +24,7 @@ main{max-width:1100px;margin:0 auto;padding:0 16px 48px}h2{margin:36px 0 14px;fo
 .id{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}.id b{font-size:18px;color:var(--gold)}.id p{margin:6px 0 0;color:var(--muted);font-size:14px}
 table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
 td,th{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;font-size:14px}th{color:var(--muted);font-weight:500}
+.tag{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:999px;font-size:11px;background:#3a2a10;color:#f5c26b;border:1px solid #6b4d1a;white-space:nowrap}tr.spam td{opacity:.6}.nft.spam{opacity:.6}
 footer{color:var(--muted);text-align:center;font-size:13px;padding:24px 16px 40px}
 </style>
 </head>
@@ -52,12 +53,13 @@ const safeImg=u=>/^(https:\/\/|data:image\/)/.test(u||"")?u:null;
 fetch("data.json?"+Date.now()).then(r=>r.json()).then(d=>{
   document.getElementById("wallet").href="https://bscscan.com/address/"+d.wallet;
   document.getElementById("upd").textContent=d.updatedAt?"last scan "+new Date(d.updatedAt).toLocaleString():"";
-  const nfts=[...d.nfts].reverse();
+  const tag=x=>x.spam?`<span class="tag">${esc(x.note||"kemungkinan spam / dust")}</span>`:"";
+  const nfts=[...d.nfts].reverse().sort((a,b)=>!!a.spam-!!b.spam);const tokens=[...d.tokens].sort((a,b)=>!!a.spam-!!b.spam);
   sN.textContent=nfts.length;sC.textContent=new Set(nfts.map(n=>(n.contract||n.collection).toLowerCase())).size;sI.textContent=d.identities.length;sT.textContent=d.tokens.length;
   ids.innerHTML=d.identities.map(i=>`<div class="id"><b>${esc(i.name)}</b><p>${esc(i.kind)}</p><p><a target="_blank" rel="noopener" href="https://bscscan.com/address/${esc(i.contract)}">${short(i.contract)}</a></p></div>`).join("");
   document.getElementById("nfts").innerHTML=nfts.map(n=>{const img=safeImg(n.image);const link=n.contract?`https://bscscan.com/nft/${n.contract}/${n.tokenId}`:null;
-    return `<div class="nft"><div class="img">${img?`<img loading="lazy" src="${esc(img)}" alt="${esc(n.collection)}">`:"◇"}</div><div class="meta"><b title="${esc(n.collection)}">${esc(n.collection)}</b><small>${n.tokenId!=null?"#"+esc(n.tokenId):""} ${link?`· <a target="_blank" rel="noopener" href="${link}">BscScan</a>`:""}</small></div></div>`}).join("");
-  toks.innerHTML=d.tokens.map(t=>`<tr><td><b>${esc(t.symbol)}</b> <small style="color:var(--muted)">${esc(t.name||"")}</small></td><td>${Number(t.amount).toLocaleString(undefined,{maximumFractionDigits:4})}</td><td><a target="_blank" rel="noopener" href="https://bscscan.com/token/${esc(t.contract)}">${short(t.contract)}</a></td></tr>`).join("");
+    return `<div class="nft${n.spam?" spam":""}"><div class="img">${img?`<img loading="lazy" src="${esc(img)}" alt="${esc(n.collection)}">`:"◇"}</div><div class="meta"><b title="${esc(n.collection)}">${esc(n.collection)}</b><small>${n.tokenId!=null?"#"+esc(n.tokenId):""}${tag(n)} ${link?`· <a target="_blank" rel="noopener" href="${link}">BscScan</a>`:""}</small></div></div>`}).join("");
+  toks.innerHTML=tokens.map(t=>`<tr class="${t.spam?"spam":""}"><td><b>${esc(t.symbol)}</b> <small style="color:var(--muted)">${esc(t.name||"")}</small>${tag(t)}</td><td>${Number(t.amount).toLocaleString(undefined,{maximumFractionDigits:4})}</td><td><a target="_blank" rel="noopener" href="https://bscscan.com/token/${esc(t.contract)}">${short(t.contract)}</a></td></tr>`).join("");
 });
 </script>
 </body>
