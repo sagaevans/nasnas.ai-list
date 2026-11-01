@@ -816,6 +816,23 @@
       "image": null,
       "auto": true,
       "imageTried": true
+    },
+    {
+      "collection": "Crop Pals",
+      "tokenId": "6142",
+      "contract": "0xd43f328560ae9ba09b27375d1b83f7fa7a0d091b",
+      "date": "2026-11-01",
+      "image": null,
+      "auto": true,
+      "imageTried": true
+    },
+    {
+      "collection": "sidecoo Daily",
+      "tokenId": "1735",
+      "contract": "0x409cfe3747f1ac20f267b50bcbb6a4e9406da3a8",
+      "date": "2026-11-01",
+      "image": "https://sidecoo.com/daily/img/w1/9-common.png",
+      "auto": true
     }
   ],
   "tokens": [
@@ -1086,9 +1103,20 @@
       "checked": true,
       "spam": true,
       "note": "kemungkinan spam / dust"
+    },
+    {
+      "symbol": "诺亚方舟",
+      "name": "诺亚方舟",
+      "contract": "0xa00a038ad1d21c3edc5613f34c1a8807203e9d0e",
+      "amount": 2,
+      "date": "2026-11-01",
+      "auto": true,
+      "checked": true,
+      "spam": true,
+      "note": "kemungkinan spam / dust"
     }
   ],
   "blocklist": [],
-  "lastBlock": 130941848,
-  "updatedAt": "2026-10-31T23:17:11.661Z"
+  "lastBlock": 131122726,
+  "updatedAt": "2026-11-01T21:57:10.545Z"
 }
