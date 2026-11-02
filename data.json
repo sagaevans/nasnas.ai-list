@@ -833,6 +833,100 @@
       "date": "2026-11-01",
       "image": "https://sidecoo.com/daily/img/w1/9-common.png",
       "auto": true
+    },
+    {
+      "collection": "AnthroBit Agents",
+      "tokenId": "5968",
+      "contract": "0xc7b7593aa572701d26301d9707e93b0c511e636a",
+      "date": "2026-11-02",
+      "image": "https://anthrobit.fun/characters/0.svg",
+      "auto": true
+    },
+    {
+      "collection": "Rookling",
+      "tokenId": "3603",
+      "contract": "0xe76a5bf585f9378b065d48f1a49d90ecf71ebeba",
+      "date": "2026-11-02",
+      "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDAwIj48cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iIzJjM2U1MCIvPjxyZWN0IHk9IjMzMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI3MCIgZmlsbD0iI2YwZDliNSIvPjxyZWN0IHg9IjAiIHk9IjMzMCIgd2lkdGg9IjUwIiBoZWlnaHQ9IjM1IiBmaWxsPSIjYjU4ODYzIi8+PHJlY3QgeD0iNTAiIHk9IjM2NSIgd2lkdGg9IjUwIiBoZWlnaHQ9IjM1IiBmaWxsPSIjYjU4ODYzIi8+PHJlY3QgeD0iMTAwIiB5PSIzMzAiIHdpZHRoPSI1MCIgaGVpZ2h0PSIzNSIgZmlsbD0iI2I1ODg2MyIvPjxyZWN0IHg9IjE1MCIgeT0iMzY1IiB3aWR0aD0iNTAiIGhlaWdodD0iMzUiIGZpbGw9IiNiNTg4NjMiLz48cmVjdCB4PSIyMDAiIHk9IjMzMCIgd2lkdGg9IjUwIiBoZWlnaHQ9IjM1IiBmaWxsPSIjYjU4ODYzIi8+PHJlY3QgeD0iMjUwIiB5PSIzNjUiIHdpZHRoPSI1MCIgaGVpZ2h0PSIzNSIgZmlsbD0iI2I1ODg2MyIvPjxyZWN0IHg9IjMwMCIgeT0iMzMwIiB3aWR0aD0iNTAiIGhlaWdodD0iMzUiIGZpbGw9IiNiNTg4NjMiLz48cmVjdCB4PSIzNTAiIHk9IjM2NSIgd2lkdGg9IjUwIiBoZWlnaHQ9IjM1IiBmaWxsPSIjYjU4ODYzIi8+PHBhdGggZD0iTTE2MCAwIEgyNDAgTDMzMCAzNDAgSDcwWiIgZmlsbD0iI2ZmZiIgb3BhY2l0eT0iMC4xNSIvPjxlbGxpcHNlIGN4PSIyMDAiIGN5PSIzNDUiIHJ4PSI5NSIgcnk9IjEyIiBmaWxsPSIjMDAwIiBvcGFjaXR5PSIwLjM1Ii8+PGcgZmlsbD0iIzI2MjYyYiIgc3Ryb2tlPSIjZThlOGU4IiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xNTAgMzAwIEwxNjAgMTYwIEgyNDAgTDI1MCAzMDBaIi8+PHBhdGggZD0iTTE0NSAxNjUgVjExMCBIMTcwIFYxMzAgSDE4OCBWMTEwIEgyMTIgVjEzMCBIMjMwIFYxMTAgSDI1NSBWMTY1WiIvPjxyZWN0IHg9IjEyNSIgeT0iMjk2IiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjI2IiByeD0iOCIvPjxyZWN0IHg9IjExMCIgeT0iMzE4IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjIyIiByeD0iOCIvPjwvZz48cGF0aCBkPSJNMTgwIDE3NSBRMTc1IDIzMCAxNjggMjkwIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iNiIgZmlsbD0ibm9uZSIgb3BhY2l0eT0iMC4yNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PC9zdmc+",
+      "auto": true
+    },
+    {
+      "collection": "Rookling",
+      "tokenId": "3604",
+      "contract": "0xe76a5bf585f9378b065d48f1a49d90ecf71ebeba",
+      "date": "2026-11-02",
+      "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDAwIj48cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iIzJjM2U1MCIvPjxyZWN0IHk9IjMzMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI3MCIgZmlsbD0iI2YwZDliNSIvPjxyZWN0IHg9IjAiIHk9IjMzMCIgd2lkdGg9IjUwIiBoZWlnaHQ9IjM1IiBmaWxsPSIjYjU4ODYzIi8+PHJlY3QgeD0iNTAiIHk9IjM2NSIgd2lkdGg9IjUwIiBoZWlnaHQ9IjM1IiBmaWxsPSIjYjU4ODYzIi8+PHJlY3QgeD0iMTAwIiB5PSIzMzAiIHdpZHRoPSI1MCIgaGVpZ2h0PSIzNSIgZmlsbD0iI2I1ODg2MyIvPjxyZWN0IHg9IjE1MCIgeT0iMzY1IiB3aWR0aD0iNTAiIGhlaWdodD0iMzUiIGZpbGw9IiNiNTg4NjMiLz48cmVjdCB4PSIyMDAiIHk9IjMzMCIgd2lkdGg9IjUwIiBoZWlnaHQ9IjM1IiBmaWxsPSIjYjU4ODYzIi8+PHJlY3QgeD0iMjUwIiB5PSIzNjUiIHdpZHRoPSI1MCIgaGVpZ2h0PSIzNSIgZmlsbD0iI2I1ODg2MyIvPjxyZWN0IHg9IjMwMCIgeT0iMzMwIiB3aWR0aD0iNTAiIGhlaWdodD0iMzUiIGZpbGw9IiNiNTg4NjMiLz48cmVjdCB4PSIzNTAiIHk9IjM2NSIgd2lkdGg9IjUwIiBoZWlnaHQ9IjM1IiBmaWxsPSIjYjU4ODYzIi8+PHBhdGggZD0iTTE2MCAwIEgyNDAgTDMzMCAzNDAgSDcwWiIgZmlsbD0iI2ZmZiIgb3BhY2l0eT0iMC4xNSIvPjxlbGxpcHNlIGN4PSIyMDAiIGN5PSIzNDUiIHJ4PSI5NSIgcnk9IjEyIiBmaWxsPSIjMDAwIiBvcGFjaXR5PSIwLjM1Ii8+PGcgZmlsbD0iI2MwMjgzYSIgc3Ryb2tlPSIjZThlOGU4IiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xNTUgMzAwIFExODUgMjIwIDE3MCAxNTAgTDE0MCAxMTAgTDE3MCAxMjUgTDE4NSA5NSBMMjAwIDEyNSBMMjE1IDk1IEwyMzAgMTI1IEwyNjAgMTEwIEwyMzAgMTUwIFEyMTUgMjIwIDI0NSAzMDBaIi8+PGNpcmNsZSBjeD0iMjAwIiBjeT0iODAiIHI9IjE0Ii8+PHJlY3QgeD0iMTI1IiB5PSIyOTYiIHdpZHRoPSIxNTAiIGhlaWdodD0iMjYiIHJ4PSI4Ii8+PHJlY3QgeD0iMTEwIiB5PSIzMTgiIHdpZHRoPSIxODAiIGhlaWdodD0iMjIiIHJ4PSI4Ii8+PC9nPjxwYXRoIGQ9Ik0xODAgMTc1IFExNzUgMjMwIDE2OCAyOTAiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI2IiBmaWxsPSJub25lIiBvcGFjaXR5PSIwLjI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz4=",
+      "auto": true
+    },
+    {
+      "collection": "Rookling",
+      "tokenId": "3605",
+      "contract": "0xe76a5bf585f9378b065d48f1a49d90ecf71ebeba",
+      "date": "2026-11-02",
+      "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDAwIj48cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iIzFlMTYxMiIvPjxyZWN0IHk9IjMzMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI3MCIgZmlsbD0iI2M4OWI2ZCIvPjxyZWN0IHg9IjAiIHk9IjMzMCIgd2lkdGg9IjUwIiBoZWlnaHQ9IjM1IiBmaWxsPSIjNWMzYTIxIi8+PHJlY3QgeD0iNTAiIHk9IjM2NSIgd2lkdGg9IjUwIiBoZWlnaHQ9IjM1IiBmaWxsPSIjNWMzYTIxIi8+PHJlY3QgeD0iMTAwIiB5PSIzMzAiIHdpZHRoPSI1MCIgaGVpZ2h0PSIzNSIgZmlsbD0iIzVjM2EyMSIvPjxyZWN0IHg9IjE1MCIgeT0iMzY1IiB3aWR0aD0iNTAiIGhlaWdodD0iMzUiIGZpbGw9IiM1YzNhMjEiLz48cmVjdCB4PSIyMDAiIHk9IjMzMCIgd2lkdGg9IjUwIiBoZWlnaHQ9IjM1IiBmaWxsPSIjNWMzYTIxIi8+PHJlY3QgeD0iMjUwIiB5PSIzNjUiIHdpZHRoPSI1MCIgaGVpZ2h0PSIzNSIgZmlsbD0iIzVjM2EyMSIvPjxyZWN0IHg9IjMwMCIgeT0iMzMwIiB3aWR0aD0iNTAiIGhlaWdodD0iMzUiIGZpbGw9IiM1YzNhMjEiLz48cmVjdCB4PSIzNTAiIHk9IjM2NSIgd2lkdGg9IjUwIiBoZWlnaHQ9IjM1IiBmaWxsPSIjNWMzYTIxIi8+PHBhdGggZD0iTTE2MCAwIEgyNDAgTDMzMCAzNDAgSDcwWiIgZmlsbD0iI2ZmZiIgb3BhY2l0eT0iMC4xNSIvPjxlbGxpcHNlIGN4PSIyMDAiIGN5PSIzNDUiIHJ4PSI5NSIgcnk9IjEyIiBmaWxsPSIjMDAwIiBvcGFjaXR5PSIwLjM1Ii8+PGcgZmlsbD0iIzJlOWI2YSIgc3Ryb2tlPSIjZThlOGU4IiBzdHJva2Utd2lkdGg9IjQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik0xNTAgMzAwIEwxNjAgMTYwIEgyNDAgTDI1MCAzMDBaIi8+PHBhdGggZD0iTTE0NSAxNjUgVjExMCBIMTcwIFYxMzAgSDE4OCBWMTEwIEgyMTIgVjEzMCBIMjMwIFYxMTAgSDI1NSBWMTY1WiIvPjxyZWN0IHg9IjEyNSIgeT0iMjk2IiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjI2IiByeD0iOCIvPjxyZWN0IHg9IjExMCIgeT0iMzE4IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjIyIiByeD0iOCIvPjwvZz48cGF0aCBkPSJNMTgwIDE3NSBRMTc1IDIzMCAxNjggMjkwIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iNiIgZmlsbD0ibm9uZSIgb3BhY2l0eT0iMC4yNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PC9zdmc+",
+      "auto": true
+    },
+    {
+      "collection": "ElonGai",
+      "tokenId": "3561",
+      "contract": "0x59f93bbbb14ce948ee16b261a05ad4a77711ecf1",
+      "date": "2026-11-02",
+      "image": null,
+      "auto": true,
+      "imageTried": true
+    },
+    {
+      "collection": "ElonGai",
+      "tokenId": "3562",
+      "contract": "0x59f93bbbb14ce948ee16b261a05ad4a77711ecf1",
+      "date": "2026-11-02",
+      "image": null,
+      "auto": true,
+      "imageTried": true
+    },
+    {
+      "collection": "ElonGai",
+      "tokenId": "3563",
+      "contract": "0x59f93bbbb14ce948ee16b261a05ad4a77711ecf1",
+      "date": "2026-11-02",
+      "image": null,
+      "auto": true,
+      "imageTried": true
+    },
+    {
+      "collection": "ElonGai",
+      "tokenId": "3564",
+      "contract": "0x59f93bbbb14ce948ee16b261a05ad4a77711ecf1",
+      "date": "2026-11-02",
+      "image": null,
+      "auto": true,
+      "imageTried": true
+    },
+    {
+      "collection": "ElonGai",
+      "tokenId": "3565",
+      "contract": "0x59f93bbbb14ce948ee16b261a05ad4a77711ecf1",
+      "date": "2026-11-02",
+      "image": null,
+      "auto": true,
+      "imageTried": true
+    },
+    {
+      "collection": "ElonGai",
+      "tokenId": "3566",
+      "contract": "0x59f93bbbb14ce948ee16b261a05ad4a77711ecf1",
+      "date": "2026-11-02",
+      "image": null,
+      "auto": true,
+      "imageTried": true
+    },
+    {
+      "collection": "NULLSECTOR",
+      "tokenId": "830",
+      "contract": "0x9395e207f9928657237de96ffb12340094c073cd",
+      "date": "2026-11-02",
+      "image": "https://nullsector.online/images/830.png",
+      "auto": true
     }
   ],
   "tokens": [
@@ -1114,9 +1208,71 @@
       "checked": true,
       "spam": true,
       "note": "kemungkinan spam / dust"
+    },
+    {
+      "symbol": "BP",
+      "name": "AnthroBit Bound Points",
+      "contract": "0x6eee003e2aebe75be551ac509eb485cc25e404fb",
+      "amount": 506,
+      "date": "2026-11-02",
+      "auto": true,
+      "checked": true
+    },
+    {
+      "symbol": "ZXMOTO",
+      "name": "张雪机车",
+      "contract": "0xe8bc6e40a690f1bd64a9aa2efbaad2eedbc79c60",
+      "amount": 5,
+      "date": "2026-11-02",
+      "auto": true,
+      "checked": true,
+      "spam": true,
+      "note": "kemungkinan spam / dust"
+    },
+    {
+      "symbol": "币安新人生",
+      "name": "币安新人生",
+      "contract": "0x81f70edd17177ccdaff6e2a1fb9ab6b0cc9e6a53",
+      "amount": 1,
+      "date": "2026-11-02",
+      "auto": true,
+      "checked": true,
+      "spam": true,
+      "note": "kemungkinan spam / dust"
+    },
+    {
+      "symbol": "币安无忧",
+      "name": "币安无忧",
+      "contract": "0x4e351bb2f0a67aa383c9e73333749788ad9f3b7c",
+      "amount": 6,
+      "date": "2026-11-02",
+      "auto": true,
+      "checked": true,
+      "spam": true,
+      "note": "kemungkinan spam / dust"
+    },
+    {
+      "symbol": "FAGENT",
+      "name": "FAGENT",
+      "contract": "0xdbd4bbc0ef2c6771d3e1815b9d77388f5f02d2b7",
+      "amount": 3,
+      "date": "2026-11-02",
+      "auto": true,
+      "checked": true,
+      "spam": true,
+      "note": "kemungkinan spam / dust"
+    },
+    {
+      "symbol": "BNBbaby",
+      "name": "BNBbaby",
+      "contract": "0xd0079025a9bb66a7a1de991de2e4326faba35729",
+      "amount": 10000000,
+      "date": "2026-11-02",
+      "auto": true,
+      "checked": true
     }
   ],
   "blocklist": [],
-  "lastBlock": 131122726,
-  "updatedAt": "2026-11-01T21:57:10.545Z"
+  "lastBlock": 131151340,
+  "updatedAt": "2026-11-02T01:19:03.265Z"
 }
