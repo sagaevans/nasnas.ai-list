@@ -1752,9 +1752,20 @@
       "checked": true,
       "spam": true,
       "note": "kemungkinan spam / dust"
+    },
+    {
+      "symbol": "IDCORE",
+      "name": "IDCORE",
+      "contract": "0xc3e4029b0cfdcafaf91fc0e33ff0dec597736207",
+      "amount": 1000,
+      "date": "2026-11-05",
+      "auto": true,
+      "checked": true,
+      "spam": true,
+      "note": "kemungkinan spam / dust"
     }
   ],
   "blocklist": [],
-  "lastBlock": 131718284,
-  "updatedAt": "2026-11-05T00:20:01.232Z"
+  "lastBlock": 131897313,
+  "updatedAt": "2026-11-05T22:39:09.166Z"
 }
