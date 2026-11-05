@@ -1202,6 +1202,22 @@
       "date": "2026-11-04",
       "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjY0MCIgaGVpZ2h0PSI2NDAiIHNoYXBlLXJlbmRlcmluZz0iY3Jpc3BFZGdlcyI+PHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiBmaWxsPSIjMTAxYTEzIi8+PHJlY3QgeD0iNiIgeT0iNiIgd2lkdGg9IjYiIGhlaWdodD0iMSIgZmlsbD0iIzA3MGMwOCIvPjxyZWN0IHg9IjUiIHk9IjciIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiMwNzBjMDgiLz48cmVjdCB4PSI2IiB5PSI3IiB3aWR0aD0iNiIgaGVpZ2h0PSIxIiBmaWxsPSIjMjYzNTJhIi8+PHJlY3QgeD0iMTIiIHk9IjciIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiMwNzBjMDgiLz48cmVjdCB4PSI0IiB5PSI4IiB3aWR0aD0iMSIgaGVpZ2h0PSI0IiBmaWxsPSIjMDcwYzA4Ii8+PHJlY3QgeD0iMTMiIHk9IjgiIHdpZHRoPSIxIiBoZWlnaHQ9IjQiIGZpbGw9IiMwNzBjMDgiLz48cmVjdCB4PSI1IiB5PSI4IiB3aWR0aD0iOCIgaGVpZ2h0PSI0IiBmaWxsPSIjMjYzNTJhIi8+PHJlY3QgeD0iNiIgeT0iOCIgd2lkdGg9IjYiIGhlaWdodD0iNCIgZmlsbD0iIzI2MzUyYSIvPjxyZWN0IHg9IjgiIHk9IjkiIHdpZHRoPSIyIiBoZWlnaHQ9IjIiIGZpbGw9IiMyNjM1MmEiLz48cmVjdCB4PSI4IiB5PSI5IiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSIjMjYzNTJhIi8+PHJlY3QgeD0iMjAiIHk9IjYiIHdpZHRoPSI2IiBoZWlnaHQ9IjEiIGZpbGw9IiMwNzBjMDgiLz48cmVjdCB4PSIxOSIgeT0iNyIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0iIzA3MGMwOCIvPjxyZWN0IHg9IjIwIiB5PSI3IiB3aWR0aD0iNiIgaGVpZ2h0PSIxIiBmaWxsPSIjMjYzNTJhIi8+PHJlY3QgeD0iMjYiIHk9IjciIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiMwNzBjMDgiLz48cmVjdCB4PSIxOCIgeT0iOCIgd2lkdGg9IjEiIGhlaWdodD0iNCIgZmlsbD0iIzA3MGMwOCIvPjxyZWN0IHg9IjI3IiB5PSI4IiB3aWR0aD0iMSIgaGVpZ2h0PSI0IiBmaWxsPSIjMDcwYzA4Ii8+PHJlY3QgeD0iMTkiIHk9IjgiIHdpZHRoPSI4IiBoZWlnaHQ9IjQiIGZpbGw9IiMyNjM1MmEiLz48cmVjdCB4PSIyMCIgeT0iOCIgd2lkdGg9IjYiIGhlaWdodD0iNCIgZmlsbD0iIzI2MzUyYSIvPjxyZWN0IHg9IjIyIiB5PSI5IiB3aWR0aD0iMiIgaGVpZ2h0PSIyIiBmaWxsPSIjMjYzNTJhIi8+PHJlY3QgeD0iMjIiIHk9IjkiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiMyNjM1MmEiLz48cmVjdCB4PSIxNCIgeT0iMTEiIHdpZHRoPSI0IiBoZWlnaHQ9IjEiIGZpbGw9IiMwNzBjMDgiLz48cmVjdCB4PSIxMyIgeT0iMTIiIHdpZHRoPSI2IiBoZWlnaHQ9IjEiIGZpbGw9IiMyNjM1MmEiLz48cmVjdCB4PSIyIiB5PSIxMiIgd2lkdGg9IjIiIGhlaWdodD0iMSIgZmlsbD0iIzA3MGMwOCIvPjxyZWN0IHg9IjI4IiB5PSIxMiIgd2lkdGg9IjIiIGhlaWdodD0iMSIgZmlsbD0iIzA3MGMwOCIvPjxyZWN0IHg9IjMiIHk9IjEyIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSIjMDcwYzA4Ii8+PHJlY3QgeD0iNCIgeT0iMTIiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiMyNjM1MmEiLz48cmVjdCB4PSIxMyIgeT0iMTEiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiMwNzBjMDgiLz48cmVjdCB4PSIxOCIgeT0iMTEiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiMwNzBjMDgiLz48cmVjdCB4PSIxIiB5PSIxMyIgd2lkdGg9IjEiIGhlaWdodD0iNyIgZmlsbD0iIzA3MGMwOCIvPjxyZWN0IHg9IjMwIiB5PSIxMyIgd2lkdGg9IjEiIGhlaWdodD0iNyIgZmlsbD0iIzA3MGMwOCIvPjxyZWN0IHg9IjIiIHk9IjEzIiB3aWR0aD0iMjgiIGhlaWdodD0iNyIgZmlsbD0iIzI2MzUyYSIvPjxyZWN0IHg9IjQiIHk9IjEyIiB3aWR0aD0iOSIgaGVpZ2h0PSIxIiBmaWxsPSIjMjYzNTJhIi8+PHJlY3QgeD0iMTkiIHk9IjEyIiB3aWR0aD0iOSIgaGVpZ2h0PSIxIiBmaWxsPSIjMjYzNTJhIi8+PHJlY3QgeD0iMiIgeT0iMjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiMwNzBjMDgiLz48cmVjdCB4PSIyOSIgeT0iMjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiMwNzBjMDgiLz48cmVjdCB4PSIzIiB5PSIyMCIgd2lkdGg9IjI2IiBoZWlnaHQ9IjEiIGZpbGw9IiMyNjM1MmEiLz48cmVjdCB4PSIzIiB5PSIyMSIgd2lkdGg9IjIiIGhlaWdodD0iMSIgZmlsbD0iIzA3MGMwOCIvPjxyZWN0IHg9IjI3IiB5PSIyMSIgd2lkdGg9IjIiIGhlaWdodD0iMSIgZmlsbD0iIzA3MGMwOCIvPjxyZWN0IHg9IjUiIHk9IjIxIiB3aWR0aD0iMjIiIGhlaWdodD0iMSIgZmlsbD0iIzI2MzUyYSIvPjxyZWN0IHg9IjUiIHk9IjEyIiB3aWR0aD0iOCIgaGVpZ2h0PSIxIiBmaWxsPSIjMjYzNTJhIi8+PHJlY3QgeD0iNiIgeT0iMTEiIHdpZHRoPSI2IiBoZWlnaHQ9IjEiIGZpbGw9IiMyNjM1MmEiLz48cmVjdCB4PSIxOSIgeT0iMTIiIHdpZHRoPSI4IiBoZWlnaHQ9IjEiIGZpbGw9IiMyNjM1MmEiLz48cmVjdCB4PSIyMCIgeT0iMTEiIHdpZHRoPSI2IiBoZWlnaHQ9IjEiIGZpbGw9IiMyNjM1MmEiLz48cmVjdCB4PSI2IiB5PSIxNCIgd2lkdGg9IjIiIGhlaWdodD0iMSIgZmlsbD0iIzI2MzUyYSIvPjxyZWN0IHg9IjciIHk9IjE1IiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSIjMjYzNTJhIi8+PHJlY3QgeD0iMjQiIHk9IjE1IiB3aWR0aD0iMiIgaGVpZ2h0PSIxIiBmaWxsPSIjMjYzNTJhIi8+PHJlY3QgeD0iMTUiIHk9IjEzIiB3aWR0aD0iMiIgaGVpZ2h0PSIxIiBmaWxsPSIjMjYzNTJhIi8+PHJlY3QgeD0iOSIgeT0iMTkiIHdpZHRoPSIxNCIgaGVpZ2h0PSIyIiBmaWxsPSIjMjYzNTJhIi8+PHJlY3QgeD0iNyIgeT0iMjAiIHdpZHRoPSIxOCIgaGVpZ2h0PSIyIiBmaWxsPSIjMjYzNTJhIi8+PHJlY3QgeD0iNSIgeT0iMjIiIHdpZHRoPSIxIiBoZWlnaHQ9IjEwIiBmaWxsPSIjMDcwYzA4Ii8+PHJlY3QgeD0iMjYiIHk9IjIyIiB3aWR0aD0iMSIgaGVpZ2h0PSIxMCIgZmlsbD0iIzA3MGMwOCIvPjxyZWN0IHg9IjYiIHk9IjIyIiB3aWR0aD0iMjAiIGhlaWdodD0iMTAiIGZpbGw9IiMyNjM1MmEiLz48cmVjdCB4PSIxMCIgeT0iMjIiIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMCIgZmlsbD0iIzI2MzUyYSIvPjxyZWN0IHg9IjciIHk9IjI2IiB3aWR0aD0iMiIgaGVpZ2h0PSI2IiBmaWxsPSIjMjYzNTJhIi8+PHJlY3QgeD0iMjMiIHk9IjI2IiB3aWR0aD0iMiIgaGVpZ2h0PSI2IiBmaWxsPSIjMjYzNTJhIi8+PHJlY3QgeD0iMTMiIHk9IjEyIiB3aWR0aD0iNiIgaGVpZ2h0PSIyIiBmaWxsPSIjOWFkMTNjIi8+PHJlY3QgeD0iMTEiIHk9IjE0IiB3aWR0aD0iMiIgaGVpZ2h0PSIyIiBmaWxsPSIjOWFkMTNjIi8+PHJlY3QgeD0iMTkiIHk9IjE0IiB3aWR0aD0iMiIgaGVpZ2h0PSI0IiBmaWxsPSIjOWFkMTNjIi8+PHJlY3QgeD0iMTciIHk9IjE4IiB3aWR0aD0iMiIgaGVpZ2h0PSIyIiBmaWxsPSIjOWFkMTNjIi8+PHJlY3QgeD0iMTUiIHk9IjIwIiB3aWR0aD0iMiIgaGVpZ2h0PSIzIiBmaWxsPSIjOWFkMTNjIi8+PHJlY3QgeD0iMTUiIHk9IjI1IiB3aWR0aD0iMiIgaGVpZ2h0PSIyIiBmaWxsPSIjOWFkMTNjIi8+PC9zdmc+",
       "auto": true
+    },
+    {
+      "collection": "AgentVOLT",
+      "tokenId": "794",
+      "contract": "0xe0deb1a792eebd9cba7fd74b70a283bfa2630771",
+      "date": "2026-11-05",
+      "image": "https://www.agentvolt.site/assets/nft_common.png",
+      "auto": true
+    },
+    {
+      "collection": "Bitlings",
+      "tokenId": "567",
+      "contract": "0x8a8ffde54e9c7b1b9c5fa7cfd980bb68679d9998",
+      "date": "2026-11-05",
+      "image": "https://bitlings.surge.sh/images/567.png",
+      "auto": true
     }
   ],
   "tokens": [
@@ -1683,9 +1699,62 @@
       "checked": true,
       "spam": true,
       "note": "kemungkinan spam / dust"
+    },
+    {
+      "symbol": "VOLT",
+      "name": "AgentVOLT",
+      "contract": "0x4ebb70fc9fd26e009f11fe176540c4c8aebb4732",
+      "amount": 5000,
+      "date": "2026-11-05",
+      "auto": true,
+      "checked": true
+    },
+    {
+      "symbol": "币安魂",
+      "name": "币安魂",
+      "contract": "0xad1a1505c1f193e8e77cb00fe4ff0c73bfab68ac",
+      "amount": 3267.9700000000003,
+      "date": "2026-11-05",
+      "auto": true,
+      "checked": true,
+      "spam": true,
+      "note": "kemungkinan spam / dust"
+    },
+    {
+      "symbol": "比特币能飞",
+      "name": "比特币能飞",
+      "contract": "0xfcf83d966c7c70aaaa331c3cc0a62dc76af76693",
+      "amount": 3,
+      "date": "2026-11-05",
+      "auto": true,
+      "checked": true,
+      "spam": true,
+      "note": "kemungkinan spam / dust"
+    },
+    {
+      "symbol": "我画地为牢",
+      "name": "我画地为牢",
+      "contract": "0x07349b33784a697c2bcd2a756d91a9127e2fe559",
+      "amount": 4,
+      "date": "2026-11-05",
+      "auto": true,
+      "checked": true,
+      "spam": true,
+      "note": "kemungkinan spam / dust"
+    },
+    {
+      "symbol": "币安世界",
+      "name": "币安世界",
+      "contract": "0x8b52f5d80c3ad362b9988a4e7a286f49097fcab4",
+      "amount": 7,
+      "date": "2026-11-05",
+      "auto": true,
+      "checked": true,
+      "spam": true,
+      "note": "kemungkinan spam / dust"
     }
   ],
   "blocklist": [],
-  "lastBlock": 131548370,
-  "updatedAt": "2026-11-04T02:59:40.983Z"
+  "lastBlock": 131718284,
+  "updatedAt": "2026-11-05T00:20:01.232Z"
 }
