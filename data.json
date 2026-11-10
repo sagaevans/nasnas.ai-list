@@ -1897,9 +1897,75 @@
       "checked": true,
       "spam": true,
       "note": "kemungkinan spam / dust"
+    },
+    {
+      "symbol": "英伟达",
+      "name": "英伟达",
+      "contract": "0xf3cb77273a9e9f58c2cedd44e8a89c0ff6745f04",
+      "amount": 4212.45,
+      "date": "2026-11-10",
+      "auto": true,
+      "checked": true,
+      "spam": true,
+      "note": "kemungkinan spam / dust"
+    },
+    {
+      "symbol": "币安人生2.0",
+      "name": "币安人生2.0",
+      "contract": "0x59dab796f0695c8b9c651ac827026655cb4a3015",
+      "amount": 1,
+      "date": "2026-11-10",
+      "auto": true,
+      "checked": true,
+      "spam": true,
+      "note": "kemungkinan spam / dust"
+    },
+    {
+      "symbol": "发财狗",
+      "name": "发财狗",
+      "contract": "0x1feb1b0afcee64cc445392922a2d043ba3e5dbb2",
+      "amount": 2,
+      "date": "2026-11-10",
+      "auto": true,
+      "checked": true,
+      "spam": true,
+      "note": "kemungkinan spam / dust"
+    },
+    {
+      "symbol": "牛逼",
+      "name": "牛逼",
+      "contract": "0x546de1976df691862b3aa6e35ebe8cdc792522fb",
+      "amount": 3,
+      "date": "2026-11-10",
+      "auto": true,
+      "checked": true,
+      "spam": true,
+      "note": "kemungkinan spam / dust"
+    },
+    {
+      "symbol": "骑士精神",
+      "name": "骑士精神",
+      "contract": "0x46e5573f84d2ec4196ed398b92f3dc732fdb0e9d",
+      "amount": 2,
+      "date": "2026-11-10",
+      "auto": true,
+      "checked": true,
+      "spam": true,
+      "note": "kemungkinan spam / dust"
+    },
+    {
+      "symbol": "RELAY",
+      "name": "RELAY",
+      "contract": "0x03551f07e8323dce3871112854ebf167c941ea81",
+      "amount": 1,
+      "date": "2026-11-10",
+      "auto": true,
+      "checked": true,
+      "spam": true,
+      "note": "kemungkinan spam / dust"
     }
   ],
   "blocklist": [],
-  "lastBlock": 132691727,
-  "updatedAt": "2026-11-10T02:09:39.462Z"
+  "lastBlock": 132816452,
+  "updatedAt": "2026-11-10T17:42:22.559Z"
 }
